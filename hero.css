@@ -1,9 +1,54 @@
-.btn-primary{
-    background-color: blue;
+.banner-content{
     font-weight: bold;
-    color: white;
-    padding: 20px 35px;
+    color: black;
     border-radius: 5px;
     font-size: 15px;
     border: none;
+    margin: 0;
+    padding: 0;
+}
+.btn-primary{
+    background-color: blue;
+    border-radius: 5px;
+color: white;
+padding: 15px 35px;
+font-size: 20px;
+border: none;
+margin-bottom: 100px;
+margin-top: 10px;
+}
+.png{
+    margin-top: 100px;
+}
+    
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: aquamarine;
+   width: 1050px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.first-image{
+background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-position: top left bottom right;
+}
+.profile-pic{
+    width: 500px;
 }
