@@ -1,6 +1,7 @@
 body{
     width: 1280px;
     margin: 0 auto;
+    background-color: #f5f5f5;
 }
 .container{
     margin-top: 40px ;
@@ -232,4 +233,26 @@ flex: 1;
 }
 .newsletter-section{
     border-radius: 20px;
+}
+.last-pic{
+    top: 20px;
+}
+.last-line{
+    margin: 50px auto;
+
+}
+.Just-image{
+    position: relative;
+    
+}
+.Just-image img{
+    position: absolute;
+    padding: 24px;
+
+}
+.image-quation{
+    bottom: 50%;
+    background-color: white;
+    padding: 48px 24px;
+    border-radius: 8px;
 }
