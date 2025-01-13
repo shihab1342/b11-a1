@@ -103,6 +103,10 @@ flex: 1;
 .vision-section .card.left a{
     background-color: #5490F5;
 }
+.vision-section .card.left a:hover,.vision-section .card.card.middle a:hover,.vision-section .card.card.right a:hover{
+ background-color: orangered;
+    opacity: .8; 
+}
 .vision-section .card.middle{
     background-color: #C6E4D6;
 }
@@ -114,4 +118,78 @@ flex: 1;
 }
 .vision-section .card.right a{
     background-color: #FFD55D;
+}
+.news-section{
+    border-radius: 6px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+}
+.concept{
+    flex-direction: row;
+    /* background-color: white; */
+    
+}
+.news-section .all-news{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.sattelite{
+    box-shadow: 0px 0px 5px rgb(200, 200, 200);
+    border-radius: 24px;
+    display: flex;
+    gap:32px;
+    padding: 48px;
+
+}
+.sattelite.reverse{
+    flex-direction: row-reverse;
+}
+.sattelite .world{
+    border-radius: 16px;
+}
+.discription{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: black;
+}
+.option{
+    padding: 10px 15px;
+    background-color: #006A50;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.sattelite .left{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.donate-section{
+    text-align: center;
+}
+
+.donate-section .taka-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: white;
+    gap:40px;
+
+}
+.donate-section .taka-btn{
+    padding: 40px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    flex: 1;
+    border-radius: 16px;
+
+}
+.donate-section .amount input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
 }
