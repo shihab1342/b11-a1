@@ -62,3 +62,56 @@ background-color: aquamarine;
 .profile-pic{
     width: 500px;
 }
+.vision-section {
+
+}
+.vision-section .cards{
+display: flex;
+gap: 24px;
+justify-content: center;
+
+}
+.vision-section .cards .card{
+padding: 32px;
+border-radius: 16px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex: 1;
+}
+.vision-section .card h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.vision-section .card p{
+    color: #0E0E0EB3;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.vision-section .card a{
+    text-decoration: none;
+    padding: 11px 20px;
+ color: white;  
+ border-radius: 8px; 
+ font-weight: 600px;
+}
+.vision-section .card.left{
+    background-color: #5490F533;
+}
+.vision-section .card.left a{
+    background-color: #5490F5;
+}
+.vision-section .card.middle{
+    background-color: #C6E4D6;
+}
+.vision-section .card.middle a{
+    background-color: #09A15C;
+}
+.vision-section .card.right{
+    background-color: #F7EBCF;
+}
+.vision-section .card.right a{
+    background-color: #FFD55D;
+}
