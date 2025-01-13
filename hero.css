@@ -203,3 +203,33 @@ flex: 1;
 .donate-section .amount input::placeholder{
     font-size: 18px;
 }
+.newsletter-section{
+    background-color: #C6E4D6;
+    border-radius: 6px;
+    text-align: center;
+    width: 100%;
+    max-width: 1400px;
+    padding: 20px 30px;
+
+}
+.newsletter-last{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.newsletter-last input{
+    padding: 12px;
+    max-width: 1200px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 70%;
+    text-align: center;
+}
+.newsletter-last button{
+    background-color: #006A50;
+    color: white;
+    border-radius: 5px;
+}
+.newsletter-section{
+    border-radius: 20px;
+}
