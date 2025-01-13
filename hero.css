@@ -188,8 +188,18 @@ flex: 1;
     border-radius: 16px;
 
 }
+.donate-section .taka-btn:hover{
+    background-color: #C6E4D6;
+}
 .donate-section .amount input[type="number"]{
     width: 100%;
     padding: 10px;
     margin-bottom: 16px;
+}
+.donate-section .amount input{
+    text-align: center;
+}
+
+.donate-section .amount input::placeholder{
+    font-size: 18px;
 }
